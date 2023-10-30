@@ -1,0 +1,80 @@
+ 
+ .home1 {
+    background-color: rgba(199, 199, 199, 0.464);
+}
+
+.sidebar {
+    background-color: rgb(104, 216, 156);
+    width: 50px;
+    height: 606px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.plus {
+    margin: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.home {
+    margin: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.ham {
+    margin: 25px 0px 15px 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.issues {
+    margin: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.settings {
+    margin: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.title {
+    margin-left: 12px;
+}
+
+.center {
+    display: flex;
+}
+
+.add {
+    background-color: rgb(104, 216, 156);
+    height: 25px;
+    width: 110px;
+    margin: 33px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    padding-left: 4px;
+    cursor: pointer;
+}
+
+.issueplus {
+    margin-top: 3.5px;
+}
+
+.yourproject {
+    margin-left: -200px;
+}
+
+.projectname {
+    background-color: white;
+    height: 430px;
+    width: 300%;
+    margin: 20px;
+    border: solid black;
+    border-radius: 3px;
+}
