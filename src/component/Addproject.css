@@ -6,7 +6,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color: #2f4454;
+    color: #3aafa9;
+}
+
+.addprojectpage {
+    display: flex;
 }
 
 label {

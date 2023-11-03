@@ -1,10 +1,9 @@
- 
- .home1 {
-    background-color: rgba(199, 199, 199, 0.464);
+.home1 {
+    background-color: #222629;
 }
 
 .sidebar {
-    background-color: rgb(104, 216, 156);
+    background-color: #0b0c10;
     width: 50px;
     height: 606px;
     color: white;
@@ -16,6 +15,11 @@
     margin: 15px;
     cursor: pointer;
     font-size: 20px;
+}
+
+.projects{
+    margin-top: -19px;
+    display: flex;
 }
 
 .home {
@@ -44,37 +48,80 @@
 
 .title {
     margin-left: 12px;
+    margin-top: 0;
+    font-size: 45px;
+    color: white;
 }
 
+.login{
+    background-color: white;
+    height: 25px;
+    width: 70px;
+    border-radius: 3px;
+    position: absolute;
+    right: 0;
+    margin-right: 17px;
+    margin-top: -50px;
+    cursor: pointer;
+}
 .center {
     display: flex;
+    align-items: center;
 }
 
 .add {
-    background-color: rgb(104, 216, 156);
+    background-color: #4c5453;
+    color: #66fcf1;
     height: 25px;
-    width: 110px;
-    margin: 33px;
-    text-align: center;
+    width: 100px;
+    margin: 25px;
+    /* text-align: center; */
     border-radius: 20px;
     display: flex;
     padding-left: 4px;
     cursor: pointer;
 }
 
+.remove{
+    background-color: #4c5453;
+    color: #66fcf1;
+    height: 25px;
+    width: 110px;
+    margin: 25px;
+    text-align: center;
+    border-radius: 20px;
+    padding-left: 4px;
+    cursor: pointer;
+}
+
+.update{
+    background-color: #4c5453;
+    color: #66fcf1;
+    height: 25px;
+    width: 110px;
+    margin: 25px;
+    /* text-align: center; */
+    border-radius: 20px;
+    /* display: flex; */
+    /* padding-left: 4px; */
+    cursor: pointer;
+}
+
 .issueplus {
-    margin-top: 3.5px;
+    margin-top: 1px;
 }
 
 .yourproject {
-    margin-left: -200px;
+    color: #66fcf1;
+    margin-left: 20px;
 }
 
 .projectname {
-    background-color: white;
-    height: 430px;
-    width: 300%;
+    background-color: rgba(255, 255, 255, 0.857);
+    height: 420px;
+    width: 200%;
     margin: 20px;
+    margin-top: 0px;
     border: solid black;
-    border-radius: 3px;
+    border-radius: 6px;
 }
